@@ -30,6 +30,7 @@ main: This holds the front end React code.
   npm install && npm run dev
   
   
+
 **Deployment**
 
 To deploy the application, you can use a hosting service such as Vercel or Heroku. Both of these services have built-in support for Next.js applications.
@@ -38,4 +39,19 @@ To deploy to Vercel, simply push your code to a Git repository and connect it to
 
 To deploy to Heroku, first create a Heroku account and set up a new application. Then, follow the instructions in the Heroku documentation to deploy a Node.js application.
 
-i used vercel, this is the live link: sultan-interview.vercel.app/
+I used vercel, this is the live link: sultan-interview.vercel.app/
+
+
+
+**Docker**
+
+Following the instructions in the Dockerfile
+
+we will first run the 'docker build -t project-name ./'
+
+then run the  'docker images' to see if it is running in our container
+
+then run the 'docker run -p 3000:3000 project-name' to start the app.
+
+
+Thank you!
